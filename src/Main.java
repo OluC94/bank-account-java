@@ -5,6 +5,14 @@ public class Main {
     public static void main(String[] args) {
         Account testAccount = new Account(5, 654.444f);
         testAccount.display();
+        testAccount.deposit(55);
+        testAccount.deposit(-65);
+        testAccount.display();
+        testAccount.withdraw(500);
+        testAccount.withdraw(7000);
+        testAccount.display();
+        System.out.println(testAccount.getBankStatement());
+
 
     }
 }
