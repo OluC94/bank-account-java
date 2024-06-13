@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="99f92bc2-1f8a-4142-b8a6-a711a53e79b7" name="Changes" comment="Setup initial account variables">
-      <change afterPath="$PROJECT_DIR$/src/WithdrawalResult.java" afterDir="false" />
+    <list default="true" id="99f92bc2-1f8a-4142-b8a6-a711a53e79b7" name="Changes" comment="Implement methods for withdraw, deposit and getStatement">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Account.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/WithdrawalResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/WithdrawalResult.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,7 +82,15 @@
       <option name="project" value="LOCAL" />
       <updated>1718114811976</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Implement methods for withdraw, deposit and getStatement">
+      <option name="closed" value="true" />
+      <created>1718198635515</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1718198635515</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -99,6 +107,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit" />
     <MESSAGE value="Setup initial account variables" />
-    <option name="LAST_COMMIT_MESSAGE" value="Setup initial account variables" />
+    <MESSAGE value="Implement methods for withdraw, deposit and getStatement" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implement methods for withdraw, deposit and getStatement" />
   </component>
 </project>

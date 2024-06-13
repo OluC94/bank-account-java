@@ -1,9 +1,14 @@
 public class WithdrawalResult {
-    private boolean isSuccessful;
-    public float balance;
+    public WithdrawalResult result;
+    public WithdrawalResult(String outcome, float balance){
 
-    public WithdrawalResult(boolean isSuccessful, float balance){
-        this.isSuccessful = isSuccessful;
-        this.balance = balance;
     }
+
+    public WithdrawalResult getWithdrawalResult(){
+        return this;
+    }
+
 }
+
+
+// output of withdraw result: {outcome: "success" or "failure", balance: float}
